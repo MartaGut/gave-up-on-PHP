@@ -1,0 +1,74 @@
+
+.navBar {
+    background: #565e6c; 
+    padding: 20px;
+    margin: 0px;
+    display: block;
+    }
+
+    .searchRight {
+        float: right;
+    }
+    .socMed {
+        padding: 19px;
+       display: inline-block;    
+    }
+    .socMed:hover {
+        background-color: white;
+    }
+    .main {
+        font-family: 'Oswald', sans-serif;
+        font-size: 70px;
+        font-weight: bold; 
+        text-align: center; 
+        color: #565e6c; 
+        display: block;
+    }
+    .underMain {
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px;
+        font-weight: bold; 
+        text-align: center; 
+        color: #565e6c; 
+       display: block; 
+    }
+    .imgContainer {
+        position: relative;
+        display: block;
+        color: #565e6c;
+        padding: 0; 
+    }
+    .subscribebutt {
+        background-color: #f6dba4;
+        border: none; 
+        border-radius: 15px;
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px;
+    }
+    .subscribebutt:hover {
+        -webkit-box-shadow: 18px 10px 43px -8px rgba(0,0,0,0.64);
+        -moz-box-shadow: 18px 10px 43px -8px rgba(0,0,0,0.64);
+        box-shadow: 18px 10px 43px -8px rgba(0,0,0,0.64);
+    }
+
+    .mainrow {
+         display: block;
+         margin: 0;
+         padding: 0;
+    }
+     .image {
+         float: left;
+         display: block;
+         margin: 0;
+         padding: 0;
+         width: 100%;
+         height: auto;
+    }
+    .imgText {
+        z-index: 100;
+        position: absolute;
+        padding-top: 50px;
+        padding-left: 50px;
+        font-size: 30px;
+        text-shadow: 2px 2px 1px #f6dba4;
+    }

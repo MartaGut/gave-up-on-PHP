@@ -1,0 +1,127 @@
+.flex-container {
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+  
+}
+.bigger {
+    flex: 1 1 56%;
+    height: auto;
+    
+    
+    
+}
+.smaller {
+    flex: 1 1 32%;
+    height: auto;
+ 
+    
+}
+.blogEntry {
+   text-align: center;
+   background-color: white;
+   padding: 10px;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+}
+.blogTitle {
+   padding-bottom: 20px;
+   font-family: 'Oswald', sans-serif;
+}
+.tithead {
+   font-size: 35px;
+   font-family: 'Oswald', sans-serif;
+}
+.titleDesc {
+   font-size: 20px;
+   font-family: 'Oswald', sans-serif;
+}
+.light {
+   opacity: 0.5; 
+}
+.WorkChina{
+   width: 100%;
+   height: auto;
+   padding-bottom: 30px;
+}
+.blogContainer {
+   text-align: justify; 
+}
+.buttDiv {
+   display: block;
+   padding: 20px; 
+}
+ .thumbButt{
+     display: block;
+}
+.comments {
+   float: right;
+}
+.pplComments {
+   display: block; 
+   overflow: hidden;
+} 
+.commPic {
+   max-width: 100px;
+   max-height: 120px;
+   float: left;
+   
+}
+.avatarComm {
+   float: left;
+   padding: 10px;
+}
+.postDate {
+   opacity: 0.5;
+   font-size: 10px;
+}
+.aboutMe, .popular, .advertisement, .tags, .followMe, .subscribe {
+   background: white;
+   margin: 20px;
+}
+.aboutMePic {
+  width: 100%;
+  height: auto;
+}
+.grey {
+   background-color: #565e6c;
+   padding: 15px; 
+   margin: 0px;
+}
+.whiteBox{
+   padding: 15px;
+}
+.list{
+   list-style: none;
+}
+.tagBox > span {
+   background-color: rgba(246, 219, 164,0.2);
+   padding: 5px;
+   margin: 5px;
+}
+.followMeButt {
+   color: rgb(246, 219, 164);
+   padding:  10px;
+}
+.subscribeTwo {
+   background-color: #f6dba4;
+   border: none; 
+   border-radius: 15px;
+   font-family: 'Oswald', sans-serif;
+   padding: 10px;
+}
+.subscribeTwo:hover {
+   -webkit-box-shadow: 18px 10px 43px -8px rgba(0,0,0,0.64);
+    -moz-box-shadow: 18px 10px 43px -8px rgba(0,0,0,0.64);
+    box-shadow: 18px 10px 43px -8px rgba(0,0,0,0.64);
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media (max-width: 700px) {
+    .bigger, .smaller {   
+        flex-direction: column;
+    }
+}

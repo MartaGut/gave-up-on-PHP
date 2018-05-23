@@ -1,0 +1,265 @@
+.navBar {
+  background: #565e6c;
+  padding: 20px;
+  margin: 0px;
+  display: block; }
+
+.searchRight {
+  float: right; }
+
+.socMed {
+  padding: 19px;
+  display: inline-block; }
+
+.socMed:hover {
+  background-color: white; }
+
+.main {
+  font-family: 'Oswald', sans-serif;
+  font-size: 70px;
+  font-weight: bold;
+  text-align: center;
+  color: #565e6c;
+  display: block; }
+
+.underMain {
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #565e6c;
+  display: block; }
+
+.imgContainer {
+  position: relative;
+  display: block;
+  color: #565e6c;
+  padding: 0; }
+
+.subscribebutt {
+  background-color: #f6dba4;
+  border: none;
+  border-radius: 15px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px; }
+
+.subscribebutt:hover {
+  -webkit-box-shadow: 18px 10px 43px -8px rgba(0, 0, 0, 0.64);
+  -moz-box-shadow: 18px 10px 43px -8px rgba(0, 0, 0, 0.64);
+  box-shadow: 18px 10px 43px -8px rgba(0, 0, 0, 0.64); }
+
+.mainrow {
+  display: block;
+  margin: 0;
+  padding: 0; }
+
+.image {
+  float: left;
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto; }
+
+.imgText {
+  z-index: 100;
+  position: absolute;
+  padding-top: 50px;
+  padding-left: 50px;
+  font-size: 30px;
+  text-shadow: 2px 2px 1px #f6dba4; }
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  margin: 0px; }
+
+.bigger {
+  flex: 1 1 56%;
+  height: auto; }
+
+.smaller {
+  flex: 1 1 32%;
+  height: auto; }
+
+.blogEntry {
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.blogTitle {
+  padding-bottom: 20px;
+  font-family: 'Oswald', sans-serif; }
+
+.tithead {
+  font-size: 35px;
+  font-family: 'Oswald', sans-serif; }
+
+.titleDesc {
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif; }
+
+.light {
+  opacity: 0.5; }
+
+.WorkChina {
+  width: 100%;
+  height: auto;
+  padding-bottom: 30px; }
+
+.blogContainer {
+  text-align: justify; }
+
+.buttDiv {
+  display: block;
+  padding: 20px; }
+
+.thumbButt {
+  display: block; }
+
+.comments {
+  float: right; }
+
+.pplComments {
+  display: block;
+  overflow: hidden; }
+
+.commPic {
+  max-width: 100px;
+  max-height: 120px;
+  float: left; }
+
+.avatarComm {
+  float: left;
+  padding: 10px; }
+
+.postDate {
+  opacity: 0.5;
+  font-size: 10px; }
+
+.aboutMe, .popular, .advertisement, .tags, .followMe, .subscribe {
+  background: white;
+  margin: 20px; }
+
+.aboutMePic {
+  width: 100%;
+  height: auto; }
+
+.grey {
+  background-color: #565e6c;
+  padding: 15px;
+  margin: 0px; }
+
+.whiteBox {
+  padding: 15px; }
+
+.list {
+  list-style: none; }
+
+.tagBox > span {
+  background-color: rgba(246, 219, 164, 0.2);
+  padding: 5px;
+  margin: 5px; }
+
+.followMeButt {
+  color: #f6dba4;
+  padding: 10px; }
+
+.subscribeTwo {
+  background-color: #f6dba4;
+  border: none;
+  border-radius: 15px;
+  font-family: 'Oswald', sans-serif;
+  padding: 10px; }
+
+.subscribeTwo:hover {
+  -webkit-box-shadow: 18px 10px 43px -8px rgba(0, 0, 0, 0.64);
+  -moz-box-shadow: 18px 10px 43px -8px rgba(0, 0, 0, 0.64);
+  box-shadow: 18px 10px 43px -8px rgba(0, 0, 0, 0.64); }
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media (max-width: 700px) {
+  .bigger, .smaller {
+    flex-direction: column; } }
+input[type=text], input[type=email] {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 26px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 16px;
+  opacity: 0.5; }
+
+/* Set a style for all buttons */
+.inSubBut {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 26px;
+  border: none;
+  cursor: pointer;
+  width: 90%;
+  font-size: 20px; }
+
+button:hover {
+  opacity: 0.8; }
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+  padding-top: 50%; }
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4); }
+
+/* Modal Content Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 4% auto 15% auto;
+  border: 1px solid #888;
+  width: 40%;
+  padding-bottom: 30px;
+  background: url("img/subscribe-back.jpg") no-repeat;
+  background-size: cover; }
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold; }
+
+.close:hover, .close:focus {
+  color: red;
+  cursor: pointer; }
+
+/* Add Zoom Animation */
+.animate {
+  animation: zoom 0.6s; }
+
+@keyframes zoom {
+  from {
+    transform: scale(0); }
+  to {
+    transform: scale(1); } }
+
+/*# sourceMappingURL=main.css.map */
